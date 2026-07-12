@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://datos.arsat.com.ar/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/datos-arsat-com-ar-domain-security.yml
   - type: Website
     url: https://datos.arsat.com.ar
   - type: Documentation
